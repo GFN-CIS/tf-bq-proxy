@@ -1,0 +1,6 @@
+[project]
+dynamic = ["dependencies"]
+name = "tf-bq-proxy"
+version = "1.0"
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
