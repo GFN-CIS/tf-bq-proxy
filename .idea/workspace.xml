@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09565dec-a7d0-4d2e-9d76-328a583f6efd" name="Changes" comment="add docs">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="09565dec-a7d0-4d2e-9d76-328a583f6efd" name="Changes" comment="added scopes">
+      <change afterPath="$PROJECT_DIR$/tf-module-debug/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tf-bq-proxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tf-bq-proxy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf-module/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/tf-module/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +39,25 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propDebugger",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="remote debug" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
+      <module name="tf-bq-proxy" />
+      <option name="PORT" value="6456" />
+      <option name="HOST" value="localhost" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list />
+        </option>
+      </PathMappingSettings>
+      <option name="REDIRECT_OUTPUT" value="true" />
+      <option name="SUSPEND_AFTER_CONNECT" value="true" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,6 +68,7 @@
       <updated>1677914027047</updated>
       <workItem from="1677914028045" duration="52000" />
       <workItem from="1677914854046" duration="1217000" />
+      <workItem from="1678460167427" duration="3476000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1677914070624</created>
@@ -73,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677915375480</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added scopes">
+      <created>1678460409789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678460409789</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="add docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add docs" />
+    <MESSAGE value="added scopes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added scopes" />
   </component>
 </project>

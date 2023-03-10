@@ -12,7 +12,7 @@ variable "service_account_json_contents" {
   sensitive = true
 }
 data "external" "docker_bq_proxy" {
-  program = ["docker", "run", "--pull=always", "--rm", "-i", "gfncis/tf-bq-proxy:latest"]
+  program = ["python3", "~/PycharmProjects/tf-bq-proxy/main.py"]
   query   = {
     service_account = var.service_account_json_contents
     project_id      = var.project_id

@@ -2,6 +2,8 @@ import os, sys, json
 from google.cloud import bigquery
 from google.oauth2 import service_account
 import tempfile
+# import pydevd_pycharm
+# pydevd_pycharm.settrace('localhost', port=6456, stdoutToServer=True, stderrToServer=True)
 
 data = json.load(sys.stdin)
 fd, sa_file = tempfile.mkstemp()
@@ -11,6 +13,7 @@ credentials = service_account.Credentials.from_service_account_file(sa_file, sco
     "https://www.googleapis.com/auth/drive",
     "https://www.googleapis.com/auth/cloud-platform",
 ])
+
 client = bigquery.Client(credentials=credentials, project=data['project_id'], location=data['location'])
 query_job = client.query(
     data['query']
