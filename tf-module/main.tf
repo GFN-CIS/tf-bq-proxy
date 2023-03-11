@@ -6,7 +6,7 @@ variable "location" {
 }
 variable "query" {
   type  = string
-  value = "SELECT 1"
+  default = "SELECT 1"
 }
 variable "access_token" {
   type      = string
