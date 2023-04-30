@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09565dec-a7d0-4d2e-9d76-328a583f6efd" name="Changes" comment="changed auth scheme to auth token instead of service account">
-      <change beforePath="$PROJECT_DIR$/tf-module/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/tf-module/main.tf" afterDir="false" />
+    <list default="true" id="09565dec-a7d0-4d2e-9d76-328a583f6efd" name="Changes" comment="small fix on arguments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +43,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="remote debug" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
       <module name="tf-bq-proxy" />
@@ -65,7 +74,7 @@
       <workItem from="1677914028045" duration="52000" />
       <workItem from="1677914854046" duration="1217000" />
       <workItem from="1678460167427" duration="8952000" />
-      <workItem from="1678552981170" duration="2543000" />
+      <workItem from="1678552981170" duration="4508000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1677914070624</created>
@@ -116,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678565885463</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="small fix on arguments">
+      <created>1678565978352</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678565978352</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +144,8 @@
     <MESSAGE value="added scopes" />
     <MESSAGE value="update the ignores" />
     <MESSAGE value="changed auth scheme to auth token instead of service account" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed auth scheme to auth token instead of service account" />
+    <MESSAGE value="small fix on arguments" />
+    <option name="LAST_COMMIT_MESSAGE" value="small fix on arguments" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tf_bq_proxy$temp.coverage" NAME="temp Coverage Results" MODIFIED="1678553406424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
