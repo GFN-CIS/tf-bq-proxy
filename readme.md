@@ -26,7 +26,7 @@ data "google_service_account_access_token" "impersonatee" {
 }
 # perform query
 module "bq_users" {
-  source       = "git::git@github.com:GFN-CIS/tf-bq-proxy.git//tf-module"
+  source       = "git::https://github.com/GFN-CIS/tf-bq-proxy.git//tf-module"
   project_id   = var.project_id
   location     = var.location
   access_token = data.google_service_account_access_token.impersonatee.access_token
